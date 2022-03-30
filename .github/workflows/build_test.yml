@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python Environment
       uses: actions/setup-python@v2
       with:
-        python-version: ["3.6", "3.7", "3.8", "pypy3"]
+        python-version: ["3.6", "3.7", "3.8"]
         #python-version: '3.x'
     - name: Install Dependencies
       run: |
